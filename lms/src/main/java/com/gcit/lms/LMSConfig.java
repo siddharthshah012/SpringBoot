@@ -22,9 +22,9 @@ import com.gcit.lms.dao.PublisherDAO;
 public class LMSConfig {
 	
 	public String driver = "com.mysql.jdbc.Driver";
-	public String url = "jdbc:mysql://gcitawstest.cel9vdzh4eep.us-east-1.rds.amazonaws.com:3306/library";
-	public String username = "gcitawstest";
-	public String password = "gcitawstest";
+	public String url = "jdbc:mysql://gcitsolutions.cel9vdzh4eep.us-east-1.rds.amazonaws.com:3306/library";
+	public String username = "gcitsolutions";
+	public String password = "gcitsolutions";
 	
 	@Bean
 	public BasicDataSource datasource(){
